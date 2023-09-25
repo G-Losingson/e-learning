@@ -30,7 +30,7 @@ class _DelayedAnimationState extends State<DelayedAnimation>
       );
     
     _animOffset = Tween<Offset>(
-      begin: const Offset(0.0, 0.2),
+      begin: const Offset(0.0, 0.1),
       end: Offset.zero,
     ).animate(curve);
 

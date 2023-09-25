@@ -1,7 +1,8 @@
-import 'package:e_learning_app/screens/welcome.dart';
-import 'package:e_learning_app/tools/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:e_learning_app/utils/tools/theme.dart';
+
+import 'screens/mainscreens/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeApp.lightTheme,
       darkTheme: ThemeApp.darkTheme,
-      themeMode: ThemeMode.system,
-      home: const WelcomePage(),
+      themeMode: ThemeMode.dark,
+      home: const HomePage(),
     );
   }
 }
